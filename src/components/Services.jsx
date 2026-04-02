@@ -26,7 +26,7 @@ const Services = () => {
             <p>Dai matrimoni da sogno ai compleanni più eleganti, Elegant Event in Venice cura ogni dettaglio con stile, passione e creatività.</p>
             <p>🌸 Scenografie incantevoli, decorazioni floreali, luci d’atmosfera e un tocco di magia veneziana per trasformare ogni evento in un’esperienza indimenticabile.</p>
             <p>📍 Venezia – Organizziamo matrimoni, ricevimenti, feste e decorazioni personalizzate in tutta la città.</p>
-            <p>📱 WhatsApp: +39 328 257 5318 / +39 327 182 1877</p>
+            <p style={{marginTop: '20px'}}>📱 WhatsApp: +39 328 257 5318 / +39 327 182 1877</p>
           </div>
         </div>
 

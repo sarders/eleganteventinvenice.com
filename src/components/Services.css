@@ -85,3 +85,20 @@
 
 .service-intro-text p { margin-bottom: 10px; }
 .service-intro-text p:last-child { margin-bottom: 0; }
+
+.elegant-frame {
+  border: 1px solid var(--accent);
+  padding: 60px 40px 40px;
+  background-color: var(--white);
+  max-width: 850px;
+  margin: 0 auto;
+  position: relative;
+}
+.elegant-frame::before {
+  content: '';
+  position: absolute;
+  top: 8px; left: 8px; right: 8px; bottom: 8px;
+  border: 1px solid rgba(168, 134, 134, 0.4);
+  pointer-events: none;
+}
+
