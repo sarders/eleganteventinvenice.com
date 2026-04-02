@@ -1,0 +1,54 @@
+.editorial-footer {
+  background-color: var(--bg-color);
+  padding-bottom: 40px;
+}
+
+.footer-content {
+  margin-bottom: 60px;
+}
+
+.footer-logo {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  letter-spacing: 5px;
+}
+
+.footer-info {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  line-height: 2;
+  margin-bottom: 30px;
+}
+
+.footer-links {
+  margin-bottom: 30px;
+}
+
+.footer-links a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  color: var(--text-dark);
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: opacity 0.3s ease;
+}
+
+.footer-links a:hover {
+  opacity: 0.6;
+}
+
+.separator {
+  margin: 0 20px;
+  color: var(--text-light);
+  font-size: 0.8rem;
+}
+
+.footer-bottom {
+  padding-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+  color: var(--text-light);
+  letter-spacing: 1px;
+}

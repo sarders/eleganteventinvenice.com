@@ -1,0 +1,40 @@
+.editorial-gallery {
+  background-color: var(--white);
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 80px 40px;
+}
+
+.gallery-item {
+  text-align: center;
+  opacity: 0;
+}
+
+.gallery-item img {
+  width: 100%;
+  aspect-ratio: 2/3;
+  object-fit: cover;
+  transition: opacity 0.5s ease;
+}
+
+.gallery-item:hover img {
+  opacity: 0.85;
+}
+
+.gallery-text {
+  margin-top: 20px;
+}
+
+.gallery-text h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  color: var(--text-dark);
+}
+
+.mt-5 {
+  margin-top: 80px;
+}
