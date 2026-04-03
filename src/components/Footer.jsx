@@ -8,9 +8,9 @@ const Footer = () => {
         <div className="footer-content text-center">
           <h2 className="footer-logo">Elegant Event<br/>in Venice</h2>
           
-          <div className="footer-info">
+          <div className="footer-contact mt-4">
             <p>Venezia, Italia</p>
-            <p>info@eleganteventinvenice.com | +39 123 456 7890</p>
+            <p>WhatsApp: <a href="https://wa.me/393282575318">+39 328 257 5318</a> / <a href="https://wa.me/393271821877">+39 327 182 1877</a></p>
           </div>
           
           <div className="footer-links">
