@@ -30,10 +30,6 @@ const Gallery = () => {
              </div>
           ))}
         </div>
-
-        <div className="text-center mt-5">
-           <a href="#contact" className="btn-editorial">Vedi Tutti i Progetti</a>
-        </div>
       </div>
     </section>
   );
