@@ -6,10 +6,10 @@ const Header = () => {
     <>
       <nav className="editorial-nav border-b">
         <div className="nav-left">
-        </div>
-        <div className="nav-center">
-          <h1 className="logo">Elegant Event</h1>
-          <span className="logo-script font-italic">in Venice</span>
+          <a href="#" className="logo-link" onClick={(e) => { e.preventDefault(); window.scrollTo({top: 0, behavior: 'smooth'}); }}>
+            <h1 className="logo">Elegant Event</h1>
+            <span className="logo-script font-italic">in Venice</span>
+          </a>
         </div>
         <div className="nav-right">
           <a href="#contact" className="nav-cta">CONTATTACI</a>
