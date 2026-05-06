@@ -10,7 +10,6 @@ const Footer = () => {
           
           <div className="footer-contact mt-4">
             <p>Venezia, Italia</p>
-            <p>WhatsApp: <a href="https://wa.me/393282575318">+39 328 257 5318</a> / <a href="https://wa.me/393271821877">+39 327 182 1877</a></p>
           </div>
           
           <div className="footer-links">
@@ -19,7 +18,7 @@ const Footer = () => {
         </div>
         
         <div className="footer-bottom border-t text-center">
-          <p>&copy; {new Date().getFullYear()} Elegant Event In Venice. P.IVA 12345678901 - All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Elegant Event In Venice. P.IVA 04990630271 - All rights reserved.</p>
         </div>
       </div>
     </footer>
