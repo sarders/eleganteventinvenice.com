@@ -10,6 +10,7 @@ const Footer = () => {
           
           <div className="footer-contact mt-4">
             <p>Venezia, Italia</p>
+            <p>Tel: <a href="tel:+393899470411">+39 389 947 0411</a></p>
           </div>
           
           <div className="footer-links">
