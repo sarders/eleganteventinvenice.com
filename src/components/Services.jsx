@@ -19,7 +19,6 @@ const Services = () => {
           <div className="section-subtitle service-intro-text">
             <p><strong>💍 Rendiamo unico ogni momento speciale.</strong></p>
             <p>Dai matrimoni da sogno ai compleanni più eleganti, Elegant Event in Venice cura ogni dettaglio con stile, passione e creatività.</p>
-            <p>🌸 Scenografie incantevoli, decorazioni floreali, luci d’atmosfera e un tocco di magia veneziana per trasformare ogni evento in un’esperienza indimenticabile.</p>
             <p>📍 Venezia – Organizziamo matrimoni, ricevimenti, feste e decorazioni personalizzate in tutta la città.</p>
           </div>
         </div>
