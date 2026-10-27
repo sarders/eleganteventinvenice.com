@@ -7,8 +7,11 @@ const Header = () => {
       <nav className="editorial-nav border-b">
         <div className="nav-left">
           <a href="#" className="logo-link" onClick={(e) => { e.preventDefault(); window.scrollTo({top: 0, behavior: 'smooth'}); }}>
-            <h1 className="logo">Elegant Event</h1>
-            <span className="logo-script font-italic">in Venice</span>
+            <img src="/logo.jpg" alt="Logo Elegant Event in Venice" className="nav-logo-badge" />
+            <div className="logo-text-group">
+              <h1 className="logo">Elegant Event</h1>
+              <span className="logo-script font-italic">in Venice</span>
+            </div>
           </a>
         </div>
         <div className="nav-right">
