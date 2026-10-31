@@ -1,0 +1,9 @@
+{
+  "id": "YYYY-MM-DD",
+  "clientNames": "Nomi dei Clienti",
+  "eventType": "Tipologia Evento (es. Matrimonio Esclusivo / Private Party)",
+  "date": "Data Formattata (es. 15 Novembre 2026)",
+  "location": "Venezia, Italia",
+  "photo": "",
+  "personalMessage": "Frase personalizzata dedicata agli sposi o festeggiati (opzionale)."
+}

@@ -1,0 +1,238 @@
+.event-page {
+  min-height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--text-dark);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 20px 40px;
+}
+
+.event-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
+.event-brand-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.3s ease;
+}
+
+.event-brand-link:hover {
+  opacity: 0.8;
+}
+
+.event-brand-logo {
+  height: 42px;
+  width: auto;
+  object-fit: contain;
+  border: 1px solid rgba(168, 134, 134, 0.5);
+  border-radius: 4px;
+}
+
+.event-brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.event-brand-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.1rem;
+  letter-spacing: 3px;
+  margin: 0;
+  color: var(--text-dark);
+}
+
+.event-brand-sub {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-size: 0.85rem;
+  color: var(--accent);
+}
+
+/* Card Principale */
+.event-card-container {
+  width: 100%;
+  max-width: 620px;
+  margin: 0 auto;
+  background: var(--white);
+  border: 1px solid var(--border-light);
+  padding: 50px 35px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+}
+
+.event-meta {
+  margin-bottom: 24px;
+}
+
+.event-date {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.event-type {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--text-light);
+}
+
+.event-clients {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(1.8rem, 5vw, 2.6rem);
+  letter-spacing: 4px;
+  color: var(--text-dark);
+  margin: 20px 0 28px;
+  line-height: 1.25;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.event-photo-wrapper {
+  margin: 24px 0 32px;
+  overflow: hidden;
+  border-radius: 2px;
+  border: 1px solid var(--border-light);
+  background: #fdfdfc;
+}
+
+.event-photo {
+  width: 100%;
+  max-height: 480px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s ease;
+}
+
+.event-photo:hover {
+  transform: scale(1.02);
+}
+
+/* Frase Fissa Richiesta */
+.event-fixed-statement {
+  margin: 35px 0 25px;
+  padding-top: 25px;
+  border-top: 1px solid var(--border-light);
+}
+
+.statement-phrase {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(0.85rem, 2.5vw, 1.05rem);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--text-dark);
+  margin-bottom: 8px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.statement-signature {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--accent);
+  letter-spacing: 1px;
+}
+
+.event-message {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--text-light);
+  line-height: 1.8;
+  max-width: 480px;
+  margin: 20px auto 0;
+}
+
+/* Footer della Pagina */
+.event-page-footer {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.event-back-btn {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-light);
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.event-back-btn:hover {
+  color: var(--text-dark);
+  border-color: var(--border-light);
+}
+
+/* Stato Not Found */
+.event-not-found {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.not-found-title {
+  font-family: 'Cinzel', serif;
+  font-size: 1.6rem;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+}
+
+.not-found-desc {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  color: var(--text-light);
+  margin-bottom: 30px;
+}
+
+/* Ottimizzazione Mobile per Smartphone */
+@media (max-width: 480px) {
+  .event-page {
+    padding: 20px 12px 30px;
+  }
+
+  .event-card-container {
+    padding: 35px 20px;
+    box-shadow: none;
+  }
+
+  .event-date {
+    font-size: 0.72rem;
+    letter-spacing: 3px;
+  }
+
+  .event-type {
+    font-size: 0.95rem;
+  }
+
+  .event-clients {
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    margin: 15px 0 20px;
+  }
+
+  .statement-phrase {
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+  }
+
+  .statement-signature {
+    font-size: 0.95rem;
+  }
+}
